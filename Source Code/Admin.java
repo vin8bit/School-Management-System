@@ -14,7 +14,7 @@ public class Admin extends JFrame {
          JMenu file,addmenu,staff,fees,result,help;
 
             	Admin(){
-                     setTitle("SCHOOL MANAGEMENT SYSTEM");
+                     setTitle("SCHOOL MINI MANAGEMENT SYSTEM");
                      setIconImage(new ImageIcon("icons/logo.png").getImage()); 
                      menu_Bar = new JMenuBar();
                      file = new JMenu("File");
