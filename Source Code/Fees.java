@@ -20,7 +20,7 @@ public class Fees extends JFrame implements ActionListener{
 	    ResultSet rs2 ;
             String url="jdbc:oracle:thin:@localhost:1521:xe";
             String userName = "System";
-            String password = "System";
+            String password = "charu@123";
             int pass,pass2,check1,check2;
             String dl;
             Fees(){
