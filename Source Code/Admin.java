@@ -76,7 +76,7 @@ public class Admin extends JFrame {
                           }
                      });
 
-                     /********Faculty menu **********/
+                     /********FACULTY MENU **********/
 
                      facultyPanel = new JPanel();
                      facultyPanel.setBounds(0,160,150,90);
