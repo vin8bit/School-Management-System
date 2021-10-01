@@ -14,7 +14,7 @@ public class Admin extends JFrame {
          JMenu file,addmenu,staff,fees,result,help;
 
             	Admin(){
-                     setTitle("SCHOOL MINI MANAGEMENT SYSTEM");
+                     setTitle("MINI SCHOOL MANAGEMENT SYSTEM");
                      setIconImage(new ImageIcon("icons/logo.png").getImage()); 
                      menu_Bar = new JMenuBar();
                      file = new JMenu("File");
@@ -76,14 +76,14 @@ public class Admin extends JFrame {
                           }
                      });
 
-                     /********Faculty menu **********/
+                     /********FACULTY MENU **********/
 
                      facultyPanel = new JPanel();
                      facultyPanel.setBounds(0,160,150,90);
                      facultyPanel.setBackground(new Color(255,255,255));
                      ImageIcon img2 = new ImageIcon("icons/Add_Staff.png");
                      facultyPanel.add(new JLabel(img2));
-		     facultyPanel.add(new JLabel("Staff & Teacher"));
+		     facultyPanel.add(new JLabel("Staff & Teachers"));
                      menu1.add(facultyPanel);
                       facultyPanel.addMouseListener(new MouseAdapter() {
                            public void mousePressed(MouseEvent evt) {
@@ -93,7 +93,7 @@ public class Admin extends JFrame {
                                         admissionForm.setVisible(false);
                                         facultyForm.setVisible(true);
                                         feesForm.setVisible(false);
-                                        System.out.println("menu2ffffff");
+                                        System.out.println("menu2KKKKKKKK");
                                         setColor(facultyPanel);
                                         resetColor(addPanel);
                                         resetColor(feesPanel);
