@@ -83,7 +83,7 @@ public class Admin extends JFrame {
                      facultyPanel.setBackground(new Color(255,255,255));
                      ImageIcon img2 = new ImageIcon("icons/Add_Staff.png");
                      facultyPanel.add(new JLabel(img2));
-		     facultyPanel.add(new JLabel("Staff & Teacher"));
+		     facultyPanel.add(new JLabel("Staff & Teachers"));
                      menu1.add(facultyPanel);
                       facultyPanel.addMouseListener(new MouseAdapter() {
                            public void mousePressed(MouseEvent evt) {
@@ -93,7 +93,7 @@ public class Admin extends JFrame {
                                         admissionForm.setVisible(false);
                                         facultyForm.setVisible(true);
                                         feesForm.setVisible(false);
-                                        System.out.println("menu2ffffff");
+                                        System.out.println("menu2KKKKKKKK");
                                         setColor(facultyPanel);
                                         resetColor(addPanel);
                                         resetColor(feesPanel);
