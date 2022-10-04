@@ -93,7 +93,7 @@ public class Admin extends JFrame {
                                         admissionForm.setVisible(false);
                                         facultyForm.setVisible(true);
                                         feesForm.setVisible(false);
-                                        System.out.println("menu2KKKKKKKK");
+                                        System.out.println("Menu");
                                         setColor(facultyPanel);
                                         resetColor(addPanel);
                                         resetColor(feesPanel);
